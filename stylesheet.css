@@ -1,0 +1,238 @@
+:root {
+    --light-green: #26d0c9;
+    --dark-green: #05595B;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.clear {
+    clear: left;
+}
+
+.navbar {
+    background: white;
+    height: 85px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.3);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.navbar h1 {
+    font-family: "Lobster";
+    font-size: 35px;
+    color: var(--dark-green);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.nav-menu p {
+    font-family: "Libre Baskirville";
+    font-weight: 700;
+    color: var(--dark-green);
+    cursor: pointer;
+}
+
+.nav-menu p:hover {
+    text-decoration: underline;
+}
+
+.hero-container {
+    height: 470px;
+    padding: 0 10%;
+    display: flex;
+    color: var(--dark-green);
+}
+
+.hero-container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    line-height: 65px;
+}
+
+.hero-container p {
+    font-size: 20px;
+}
+
+.hero-container img {
+    width: 50%;
+    height: 320px;
+    align-self: center;
+}
+
+.about-container {
+    display: flex;
+    height: 250px;
+    margin: 40px 0;
+    padding: 0 10%;
+    cursor: pointer;
+}
+
+.about-container > div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.3);
+}
+
+.about-container > div > div {
+    width: 500px;
+}
+
+.about-container > img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.about-container h2 {
+    font-family: "Libre Baskirville";
+    color: var(--dark-green);
+    font-size: 30px;
+}
+
+.about-container p {
+    font-family: "Libre Baskirvillle";
+    color: var(--dark-green);
+    font-size: 16px;
+}
+
+
+.about-container .about-bottom {
+    text-align: center;
+}
+
+.about-bottom p {
+    background: var(--dark-green);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: white;
+}
+
+.about-bottom p:hover {
+    background: rgba(5, 89, 91, 0.2);
+    color: var(--dark-green);
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.3);
+}
+
+.content-container {
+    margin: 20px 0;
+    padding: 0 10%;
+    min-height: 600px;
+}
+
+.content-container .card {
+    height: 100%;
+}
+
+.content-container h1 {
+    font-size: 50px;
+    color: var(--dark-green);
+    text-align: center;
+}
+
+.card {
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px 4px rgba(1, 1, 1, 0.8);
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card > img {
+    object-fit: fill;
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-family: "Lobster";
+    font-size: 20px;
+    color: var(--dark-green);
+    margin: 0 15px 0 0;
+}
+
+.card p {
+    font-family: "Libre Baskirvillle";
+    color: var(--dark-green);
+}
+
+.card .card-footer {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.card-footer p {
+    background: var(--dark-green);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card-footer p:hover {
+    background: rgba(5, 89, 91, 0.2);
+    color: var(--dark-green);
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.3);
+}
+
+.card-footer .read {
+    color: white;
+}
+
+.content-card {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer .footer-body {
+    padding: 0 10%;
+    font-family: "Libre Baskirville";
+    text-align: center;
+    line-height: 65px;
+    height: 65px;
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.3);
+
+}
+.footer-body .your {
+    font-family: "Lobster";
+}
